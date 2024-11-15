@@ -1,9 +1,10 @@
 import { BRAND_LOGOS, HERO_CONTENT } from "../constants";
 import heroImage from "../assets/hero-3.jpg";
 import { motion } from "framer-motion";
-import { cn } from "../lib/utils";
-import { Spotlight } from "./ui/Spotlight";
+// import { cn } from "../lib/utils";
+// import { Spotlight } from "./ui/Spotlight";
 import { ContainerScroll } from "./ui/container-scroll-animation";
+import { useEffect, useRef } from "react";
 // import Image from "next/image";
 
 const containerVariants = {
@@ -21,6 +22,23 @@ const fadeIn = {
     visible: {opacity: 1, transition: {duration: 0.6}}
 }
 const HeroSection = () => {
+  const marqueeRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const marquee = marqueeRef.current;
+    if (marquee) {
+      const scroll = () => {
+        marquee.scrollLeft += 1;
+        if (marquee.scrollLeft >= marquee.scrollWidth / 2) {
+          marquee.scrollLeft = 0;
+        }
+      };
+      const interval = setInterval(scroll, 20);
+      return () => clearInterval(interval);
+    }
+  }, []);
+
+
   return (
     <motion.section 
     variants={containerVariants}
@@ -73,37 +91,40 @@ const HeroSection = () => {
           </a>
         </motion.div>
 
-        {/* Logo slider with marquee */}
-        <motion.div 
-        variants={fadeIn}
-        className="py-10 overflow-hidden mb-[-200px]">
+        {/* Logo slider with marquee effect */}
+        <motion.div
+          variants={fadeIn}
+          className="py-10 overflow-hidden mb-[-200px]"
+        >
           <p className="text-gray-400 text-center mb-8">
             {HERO_CONTENT.trustedByText}
           </p>
-          <marquee direction="right" scrollamount="5">
+          <div
+            ref={marqueeRef}
+            className="flex space-x-8 overflow-hidden whitespace-nowrap"
+            style={{ display: "flex", width: "100%", overflowX: "auto" }}
+          >
             <div className="flex space-x-8">
-                {BRAND_LOGOS.map((logo, index) => (
+              {BRAND_LOGOS.map((logo, index) => (
                 <img
-                    key={index}
-                    src={logo.src}
-                    alt={logo.alt}
-                    className="h-6 md:h-8"  
+                  key={index}
+                  src={logo.src}
+                  alt={logo.alt}
+                  className="h-6 md:h-8"
                 />
-                ))}
-                {/* Duplicate logos for continuous scrolling */}
-                {BRAND_LOGOS.map((logo, index) => (
+              ))}
+              {/* Duplicate logos for continuous scrolling */}
+              {BRAND_LOGOS.map((logo, index) => (
                 <img
-                    key={`duplicate-${index}`}
-                    src={logo.src}
-                    alt={logo.alt}
-                    className="h-6 md:h-8"  
+                  key={`duplicate-${index}`}
+                  src={logo.src}
+                  alt={logo.alt}
+                  className="h-6 md:h-8"
                 />
-                ))}
+              ))}
             </div>
-        </marquee>
-
+          </div>
         </motion.div>
-
         {/* <motion.div 
         variants={fadeIn}
         className="mt-12">

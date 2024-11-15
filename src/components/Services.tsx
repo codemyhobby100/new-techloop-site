@@ -1,21 +1,21 @@
-import React from 'react'
+// import React from 'react'
 import { HOW_IT_WORKS_CONTENT } from '../constants'
-import { delay, easeIn, motion } from 'framer-motion'
+import {  motion } from 'framer-motion'
 
 const Services = () => {
 
-    const stepVariants = {
-        hidden: { opacity: 0, x: 50 },
-        visible: (i)  => ({
-            opacity: 1,
-            y: 0,
-            transition: {
-                delay: i * 0.2,
-                duration: 0.6,
-                ease: "easeOut"
-            }
-        })
-    }
+    // const stepVariants = {
+    //     hidden: { opacity: 0, x: 50 },
+    //     visible: (i)  => ({
+    //         opacity: 1,
+    //         y: 0,
+    //         transition: {
+    //             delay: i * 0.2,
+    //             duration: 0.6,
+    //             ease: "easeOut"
+    //         }
+    //     })
+    // }
 
   return (
     <section id='services' className='mt-[-200px]'>
