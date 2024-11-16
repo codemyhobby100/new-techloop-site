@@ -195,7 +195,7 @@ export const PLANS_CONTENT = {
 };
 
 export const TESTIMONIALS_CONTENT = {
-  sectionTitle: "What Our Streamers Say",
+  sectionTitle: "What Our Clients Say",
   sectionDescription:
     "Hear from some of the top streamers who use Streamerzz to engage with their audience and grow their channels.",
   reviews: [
