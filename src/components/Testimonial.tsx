@@ -52,7 +52,7 @@ const Testimonial = () => {
   return (
     <section id="testimonial">
         <div className="max-w-7xl mx-auto px-4 mt-20">
-            <motion.div className="text-center mb-12 border-t 
+            <motion.div className="text-center mb-0 border-t 
             border-neutral-800" 
             initial= {{opacity: 0, y: -20}}
             animate={{ opacity: 1, y:0 }}
@@ -67,7 +67,7 @@ const Testimonial = () => {
                 </p>
             </motion.div>
 
-            <div className="h-[40rem] rounded-md flex flex-col antialiased dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+            <div className="mt-[-100px] h-[40rem] rounded-md flex flex-col antialiased dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
                 <InfiniteMovingCards
                     items={testimonials}
                     direction="right"
