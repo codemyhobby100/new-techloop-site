@@ -13,7 +13,7 @@ const Navbar = () => {
         <nav className='fixed top-4 left-0 right-0 z-50 m-2'>
             <div className='text-neutral-500 bg-black/60 backdrop-blur-md max-w-7xl
             mx-auto px-4 py-3 flex justify-between items-center rounded-xl border border-neutral-800'>
-                <h2 className='text-white text-[20px]'>Techloop Inc.</h2>
+                <h2 className='text-white text-[20px]'>Techloop Ltd.</h2>
 
                 <div className='hidden md:flex space-x-6'>
                     <a href="#services" className='hover:text-neutral-200'>
