@@ -1,11 +1,12 @@
+import { useEffect, useRef } from "react";
 import { BRAND_LOGOS, HERO_CONTENT } from "../constants";
 import heroImage from "../assets/hero-3.jpg";
 import { motion } from "framer-motion";
-// import { cn } from "../lib/utils";
-// import { Spotlight } from "./ui/Spotlight";
 import { ContainerScroll } from "./ui/container-scroll-animation";
-import { useEffect, useRef } from "react";
-// import Image from "next/image";
+
+import "./herosection.css"
+
+
 
 const containerVariants = {
     hidden: { opacity: 0},
@@ -52,7 +53,7 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto px-4 flex flex-col items-center text-center">
         <motion.div 
         variants={fadeInUp}
-        className="mb-8 border-neutral-800 px-3 py-2 rounded-full text-xs">
+        className="mb-8 mt-14 border-neutral-800 px-3 py-2 rounded-full text-xs">
           {HERO_CONTENT.badgeText}
         </motion.div>
 
@@ -89,22 +90,28 @@ const HeroSection = () => {
           >
             {HERO_CONTENT.callToAction.secondary}
           </a>
-        </motion.div>
+        </motion.div> 
 
         {/* Logo slider with marquee effect */}
         <motion.div
           variants={fadeIn}
-          className="py-10 overflow-hidden mb-[-200px]"
+          className="py-10 overflow-hidden mb-[-200px] mt-32 sm:mt-32"
         >
           <p className="text-gray-400 text-center mb-8">
             {HERO_CONTENT.trustedByText}
           </p>
           <div
-            ref={marqueeRef}
-            className="flex space-x-8 overflow-hidden whitespace-nowrap"
-            style={{ display: "flex", width: "100%", overflowX: "auto" }}
+            className="relative w-full overflow-hidden"
+            style={{ height: 'auto' }}
           >
-            <div className="flex space-x-8">
+            <div
+              ref={marqueeRef}
+              className="flex space-x-8 whitespace-nowrap"
+              style={{
+                display: 'flex',
+                animation: 'marquee 15s linear infinite',
+              }}
+            >
               {BRAND_LOGOS.map((logo, index) => (
                 <img
                   key={index}
@@ -113,7 +120,7 @@ const HeroSection = () => {
                   className="h-6 md:h-8"
                 />
               ))}
-              {/* Duplicate logos for continuous scrolling */}
+              {/* Duplicate logos for seamless scrolling */}
               {BRAND_LOGOS.map((logo, index) => (
                 <img
                   key={`duplicate-${index}`}
