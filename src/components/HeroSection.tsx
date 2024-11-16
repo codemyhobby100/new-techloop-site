@@ -53,7 +53,7 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto px-4 flex flex-col items-center text-center">
         <motion.div 
         variants={fadeInUp}
-        className="mb-8 mt-14 border-neutral-800 px-3 py-2 rounded-full text-xs">
+        className="mb-8  border-neutral-800 px-3 py-2 rounded-full text-xs">
           {HERO_CONTENT.badgeText}
         </motion.div>
 
