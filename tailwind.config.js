@@ -8,16 +8,19 @@ const { default: flattenColorPalette } = require("tailwindcss/lib/util/flattenCo
 module.exports = {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}", // Adjust the paths based on your project structure
   ],
-  darkMode: "class",
+  darkMode: "class", // Enables dark mode via the "class" strategy
   theme: {
     extend: {
+      // Custom animations
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
         scroll:
-        "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+          "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        slideLeftToRight: "slideLeftToRight 50s linear infinite",
       },
+      // Custom keyframes
       keyframes: {
         spotlight: {
           "0%": {
@@ -26,7 +29,7 @@ module.exports = {
           },
           "100%": {
             opacity: 1,
-            transform: "translate(-50%,-40%) scale(1)",
+            transform: "translate(-50%, -40%) scale(1)",
           },
         },
         scroll: {
@@ -35,17 +38,16 @@ module.exports = {
           },
         },
         slideLeftToRight: {
-          '0%': { transform: 'translateX(-100%)' },
-          '100%': { transform: 'translateX(100%)' },
+          "0%": { transform: "translateX(-100%)" },
+          "100%": { transform: "translateX(100%)" },
         },
-      },
-      animation: {
-        slideLeftToRight: 'slideLeftToRight 50s linear infinite',
       },
     },
   },
   plugins: [
+    // Adds each Tailwind color as a global CSS variable
     addVariablesForColors,
+    // Custom utilities for background patterns
     function ({ matchUtilities, theme }) {
       matchUtilities(
         {
@@ -71,10 +73,10 @@ module.exports = {
   ],
 };
 
-// This plugin adds each Tailwind color as a global CSS variable, e.g., var(--gray-200).
+// Adds all Tailwind colors as CSS variables
 function addVariablesForColors({ addBase, theme }) {
-  let allColors = flattenColorPalette(theme("colors"));
-  let newVars = Object.fromEntries(
+  const allColors = flattenColorPalette(theme("colors"));
+  const newVars = Object.fromEntries(
     Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
   );
 
@@ -82,4 +84,3 @@ function addVariablesForColors({ addBase, theme }) {
     ":root": newVars,
   });
 }
-
