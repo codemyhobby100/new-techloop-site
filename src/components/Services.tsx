@@ -61,7 +61,7 @@ const Services = () => {
                                 alt={step.imageAlt} 
                                 className='rounded-lg'/>
                         </div>
-
+{/* 
                         {step.users && (
                             <div className='flex justify-center items-center mt-4'>
                                 <div className='flex -space-x-2'>
@@ -77,7 +77,7 @@ const Services = () => {
                                     Connect
                                 </button>
                             </div>
-                        )}
+                        )} */}
                     </motion.div>
                 ))}
             </motion.div>

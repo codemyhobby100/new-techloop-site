@@ -3,12 +3,12 @@ import BroadcastlyLogo from "../assets/broadcastly-logo.png";
 import LiveStreamerLogo from "../assets/livestreamer-logo.png";
 import CloudCastLogo from "../assets/cloudcast-logo.png";
 
-import streamImage from "../assets/streamer.jpeg";
-import chart from "../assets/chart.png";
-import optimize from "../assets/optimize.jpeg";
-import audienceEngagementImage from "../assets/audience.jpeg";
-import monetizeImage from "../assets/monetize.jpeg";
-import automationImage from "../assets/automation.jpeg";
+import streamImage from "../assets/web.jpg";
+import chart from "../assets/web3.png";
+import optimize from "../assets/seo.jpg";
+import audienceEngagementImage from "../assets/app.jpg";
+// import monetizeImage from "../assets/monetize.jpeg";
+// import automationImage from "../assets/automation.jpeg";
 import user1 from "../assets/user1.jpeg";
 import user2 from "../assets/user2.jpeg";
 import user3 from "../assets/user3.jpeg";
@@ -50,53 +50,53 @@ export const HOW_IT_WORKS_CONTENT = {
     "Stream like a pro with our 6-step process. From setup to performance tracking, we've got everything you need to elevate your streaming experience.",
   steps: [
     {
-      title: "Set Up Your Streaming Environment",
+      title: "Web Development",
       description:
-        "Easily configure your streaming environment with our user-friendly tools. Connect to Twitch, YouTube, and more in minutes.",
+        "We build custom full-stack web applications, combining cutting-edge technologies to create seamless user experiences tailored to your business needs.",
       imageSrc: streamImage,
-      imageAlt: "Streaming Setup",
+      imageAlt: "Web Development",
     },
     {
-      title: "Engage with Your Audience",
+      title: " Apps Development ",
       description:
-        "Interact with your audience in real-time through custom alerts, chat overlays, and live notifications.",
+        "We specialize in developing cross-platform applications tailored to the specific needs of our clients, compatible with both Android and iOS devices.",
       imageSrc: audienceEngagementImage,
-      imageAlt: "Audience Engagement",
+      imageAlt: "App Development",
       users: [user1, user2, user3, user5],
     },
     {
-      title: "Track and Analyze Performance",
+      title: " Website Maintenance  ",
       description:
-        "Monitor your stream’s performance in real-time with detailed analytics and viewer engagement insights.",
+        "We provide businesses with continuous website maintenance and support, offering essential services such as regular updates, security patches, and troubleshooting.",
       imageSrc: chart,
-      imageAlt: "Performance Analytics",
+      imageAlt: "Website Maintenance ",
     },
     {
-      title: "Optimize Your Stream Settings",
+      title: "Search Engine Optimization",
       description:
-        "Fine-tune your stream settings for optimal performance, ensuring smooth streams even during high traffic.",
+        "We improve your business’s search engine rankings, ensuring your target audience can easily find you through effective SEO strategies.",
       imageSrc: optimize,
-      imageAlt: "Optimize Settings",
+      imageAlt: "Search Engine Optimization",
     },
-    {
-      title: "Monetize Your Streams",
-      description:
-        "Unlock revenue streams by adding subscriptions, donations, and sponsorships to your stream.",
-      imageSrc: monetizeImage,
-      imageAlt: "Monetization",
-    },
-    {
-      title: "Automate Your Workflows",
-      description:
-        "Use advanced automation tools to manage your schedule, alerts, and promotions effortlessly.",
-      imageSrc: automationImage,
-      imageAlt: "Workflow Automation",
-    },
+    // {
+    //   title: "Monetize Your Streams",
+    //   description:
+    //     "Unlock revenue streams by adding subscriptions, donations, and sponsorships to your stream.",
+    //   imageSrc: monetizeImage,
+    //   imageAlt: "Monetization",
+    // },
+    // {
+    //   title: "Automate Your Workflows",
+    //   description:
+    //     "Use advanced automation tools to manage your schedule, alerts, and promotions effortlessly.",
+    //   imageSrc: automationImage,
+    //   imageAlt: "Workflow Automation",
+    // },
   ],
 };
 
 export const KEY_FEATURES_CONTENT = {
-  sectionTitle: "Stream Smarter with These Key Features",
+  sectionTitle: "Our Process",
   sectionDescription:
     "Everything you need to enhance your streaming experience, all in one place.",
   features: [

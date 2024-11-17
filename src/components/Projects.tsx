@@ -46,7 +46,7 @@ const Projects = () => {
                     <motion.div key={feature.id} className="flex flex-col items-center
                     text-center w-full md:w-1/2 lg:w-1/3 p-6"
                     variants={featureVariants}>
-                        <div className="flex justify-center items-center mb-4">
+                        <div className="flex justify-center items-center mb-4 text-2xl">
                             {feature.icon}
                         </div>
                         <h3 className="text-xl">{feature.title}</h3>
