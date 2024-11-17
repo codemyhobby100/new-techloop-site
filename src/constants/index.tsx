@@ -29,7 +29,7 @@ export const HERO_CONTENT = {
   badgeText: "🚀 Your Software Development Agency!",
   mainHeading: "Empowering Businesses, \n One Solution at a Time",
   subHeading:
-    "Transforming ideas into impactful software solutions that drive business success. At Techloop Inc., we build intuitive apps, websites, and enterprise platforms that empower businesses to reach their full potential.",
+    "At Techloop Ltd., we build intuitive apps, websites, and enterprise platforms that empower businesses to reach their full potential.",
   callToAction: {
     primary: "Get a Quote",
     secondary: "Start Project",

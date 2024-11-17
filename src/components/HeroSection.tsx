@@ -95,7 +95,7 @@ const HeroSection = () => {
         {/* Logo slider with marquee effect */}
         <motion.div
           variants={fadeIn}
-          className="py-10 overflow-hidden mb-[-200px] sm:mt-32"
+          className="py-10 overflow-hidden mb-[-200px] mt-10 sm:mt-32"
         >
           <p className="text-gray-400 text-center mb-8">
             {HERO_CONTENT.trustedByText}
