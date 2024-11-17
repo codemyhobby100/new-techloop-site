@@ -65,16 +65,16 @@ const Projects = () => {
         }
     }
 
-    const featureVariants = {
-        hidden: { opacity: 0, y: 50 },
-        visible: {
-            opacity: 1,
-            y: 0,
-            transition: {
-                duration: 0.5,
-            }
-        }
-    }
+    // const featureVariants = {
+    //     hidden: { opacity: 0, y: 50 },
+    //     visible: {
+    //         opacity: 1,
+    //         y: 0,
+    //         transition: {
+    //             duration: 0.5,
+    //         }
+    //     }
+    // }
   return (
     <section>
         <div className="max-w-7xl mx-auto px-4 mt-20">

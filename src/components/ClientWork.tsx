@@ -3,6 +3,7 @@ import Project1 from "../assets/project11.png";
 import Project2 from "../assets/project21.png";
 import Project3 from "../assets/project13.png";
 import Project4 from "../assets/project14.png";
+import { KEY_FEATURES_CONTENT } from "../constants";
  
 const ClientWork = () => {
     const cards = [
@@ -34,13 +35,13 @@ const ClientWork = () => {
      
       return (
         <section>
-            <div className="text-center mb-12 border-t border-neutral-800">
+            <div className="text-center mb-12 ">
                 <h2 className="text-3xl lg:text-5xl mt-20 tracking-tighter bg-gradient-to-t
                     from-neutral-50 via-neutral-300 to-neutral-600 bg-clip-text text-transparent">
                     What we built
                 </h2>
                 <p className="mt-4">
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro maxime, sunt incidunt molestias fuga, odio officiis blanditiis quis quos autem minima. Totam expedita laudantium, laboriosam consequatur ullam vitae labore corporis? 
+                {KEY_FEATURES_CONTENT.sectionDescription}
                 </p>
             </div>
             <div className="max-w-7xl mx-auto px-4 mt-20">

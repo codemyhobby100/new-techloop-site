@@ -4,7 +4,7 @@ import Services from "./components/Services";
 import Projects from "./components/Projects";
 import Testimonial from "./components/Testimonial";
 import Navbar from "./components/Navbar";
-// import ClientWork from "./components/ClientWork";
+import ClientWork from "./components/ClientWork";
 
 
 
