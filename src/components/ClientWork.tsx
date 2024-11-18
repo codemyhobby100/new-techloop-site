@@ -2,7 +2,7 @@ import { FocusCards } from "./ui/focus-cards";
 import Project1 from "../assets/acct.png";
 import Project2 from "../assets/project27.png";
 import Project3 from "../assets/project25.png";
-import Project4 from "../assets/project14.png";
+import Project4 from "../assets/iog.png";
 import Project5 from "../assets/project20.png";
 import Project6 from "../assets/project18.jpg";
 import Project7 from "../assets/project23.png";
@@ -28,9 +28,9 @@ const ClientWork = () => {
           link: "http://acctpanel.com/",
         },
         {
-          title: "Bool E-commerce",
+          title: "IOG Website",
           src: Project4,   
-          link: "https://github.com/codemyhobby100",
+          link: "https://internationalorthopaedicgroup.com/",
         },
         {
           title: "Forex Prop Firm",
