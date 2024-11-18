@@ -8,7 +8,7 @@ import Project6 from "../assets/project18.jpg";
 import Project7 from "../assets/project23.png";
 import Project8 from "../assets/project28.png";
 import Project9 from "../assets/project29.png";
-import { KEY_FEATURES_CONTENT, OUR_WORK } from "../constants";
+import { OUR_WORK } from "../constants";
  
 const ClientWork = () => {
     const cards = [
