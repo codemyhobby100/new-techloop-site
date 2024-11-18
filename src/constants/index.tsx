@@ -145,6 +145,12 @@ export const KEY_FEATURES_CONTENT = {
   ],
 };
 
+export const OUR_WORK = {
+  sectionTitle: "Crafted to Impress",
+  sectionDescription:
+    "A showcase of innovative solutions and standout projects that turn ideas into impactful digital experiences.",
+
+}
 export const PLANS_CONTENT = {
   sectionTitle: "Choose Your Plan",
   sectionDescription:
