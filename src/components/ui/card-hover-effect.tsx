@@ -11,8 +11,8 @@ export const HoverEffect = ({
   items: {
     title: string;
     description: string;
-    link: string;
-    icon: React.ReactNode; // Icon property for each card
+    link?: string; // Make link optional
+    icon: React.ReactNode;
   }[];
   className?: string;
 }) => {
@@ -27,7 +27,7 @@ export const HoverEffect = ({
     >
       {items.map((item, idx) => (
         <div
-          key={idx} // Use the index or a unique property as the key
+          key={idx}
           className="relative group block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
@@ -51,7 +51,7 @@ export const HoverEffect = ({
           </AnimatePresence>
           <Card>
             <div className="flex flex-col items-center">
-              <div className="text-white mb-4">{item.icon}</div> {/* Render icon in white */}
+              <div className="text-white mb-4">{item.icon}</div>
               <CardTitle>{item.title}</CardTitle>
               <CardDescription>{item.description}</CardDescription>
             </div>

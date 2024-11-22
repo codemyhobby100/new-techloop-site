@@ -11,43 +11,43 @@ export const projects = [
     title: "Project Consultation",
     description:
       "We’ll meet to discuss your needs, goals, and ideas for the project.",
-    // link: "https://stripe.com",
-    icon: <FaHandsHelping size={40} className="text-white" />, // Symbolizing collaboration
+    link: "", // Add a placeholder
+    icon: <FaHandsHelping size={40} className="text-white" />,
   },
   {
     title: "Research & Planning",
     description:
       "We define the scope, create a roadmap, and analyze competitors to refine the strategy.",
-    // link: "https://netflix.com",
-    icon: <FaMapSigns size={40} className="text-white" />, // Signifying direction and planning
+    link: "", // Add a placeholder
+    icon: <FaMapSigns size={40} className="text-white" />,
   },
   {
     title: "Design Phase",
     description:
       "We craft intuitive designs that align with your vision and user experience goals.",
-    // link: "https://google.com",
-    icon: <HiOutlinePaintBrush size={40} className="text-white" />, // Representing creativity and design
+    link: "", // Add a placeholder
+    icon: <HiOutlinePaintBrush size={40} className="text-white" />,
   },
   {
     title: "Development",
     description:
       "Our team builds the solution, focusing on functionality, scalability, and performance.",
-    // link: "https://meta.com",
-    icon: <FaCode size={40} className="text-white" />, // Representing coding and development
+    link: "", // Add a placeholder
+    icon: <FaCode size={40} className="text-white" />,
   },
   {
     title: "Testing & Feedback",
     description:
       "The product is tested rigorously, and your feedback ensures it meets expectations.",
-    // link: "https://amazon.com",
-    icon: <FaCheckCircle size={40} className="text-white" />, // Indicating validation and approval
+    link: "", // Add a placeholder
+    icon: <FaCheckCircle size={40} className="text-white" />,
   },
   {
     title: "Launch & Support",
     description:
       "We deploy the solution and provide ongoing support for optimal performance.",
-    // link: "https://microsoft.com",
-    icon: <HiOutlineRocketLaunch  size={40} className="text-white" />, // Representing launch and progress
+    link: "", // Add a placeholder
+    icon: <HiOutlineRocketLaunch size={40} className="text-white" />,
   },
 ];
 
