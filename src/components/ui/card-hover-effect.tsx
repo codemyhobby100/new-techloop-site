@@ -26,9 +26,8 @@ export const HoverEffect = ({
       )}
     >
       {items.map((item, idx) => (
-        <a
-          // href={item?.link}
-          key={item?.link}
+        <div
+          key={idx} // Use the index or a unique property as the key
           className="relative group block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
@@ -57,11 +56,12 @@ export const HoverEffect = ({
               <CardDescription>{item.description}</CardDescription>
             </div>
           </Card>
-        </a>
+        </div>
       ))}
     </div>
   );
 };
+
 
 // Card Component
 export const Card = ({
