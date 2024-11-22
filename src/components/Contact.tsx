@@ -21,6 +21,10 @@ const Contact = () => {
                 Get in Touch <br /> Bring Your Vision to Life
             </motion.h2>
             </LampContainer>
+
+            <div>
+              <h2>Contact form</h2>
+            </div>
         </div>
     </section>
   );
