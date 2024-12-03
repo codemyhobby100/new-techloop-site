@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import ClientWork from "./components/ClientWork";
 import Team from "./components/Team";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   // Optional: Hook to listen to scroll events
@@ -25,6 +26,7 @@ const App = () => {
         <Team/>
         <Testimonial />
         <Contact/>
+        <Footer />
       </main>
     </ReactLenis>
   );
