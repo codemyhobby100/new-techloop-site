@@ -1,5 +1,5 @@
 import { AnimatedTestimonials } from "../components/ui/animated-testimonials";
-import { OUR_WORK } from "../constants";
+// import { OUR_WORK } from "../constants";
 import team1 from "../assets/team-01.jpg";
 import team2 from "../assets/team-3.jpg";
 import team3 from "../assets/team-5.jpg";
