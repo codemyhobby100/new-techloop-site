@@ -39,7 +39,7 @@ const Contact = () => {
           <h3 className="text-3xl md:text-4xl font-light mb-4">
             Ready to Transform Your Vision into Reality?
           </h3>
-          <p className="text-lg md:text-xl font-extralight mb-8">
+          <p className="text-lg md:text-[16px] font-extralight mb-8">
             Partner with us to build innovative websites, apps, and digital solutions that drive results. Let’s create something amazing together.
           </p>
           <a

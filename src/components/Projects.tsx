@@ -7,8 +7,12 @@ import Plan from "../assets/plan.jpg";
 import Research from "../assets/research.jpg";
 import Ui from "../assets/ui-2.jpg";
 import Ui2 from "../assets/ui-5.jpg";
-import Dev from "../assets/web2.jpg"
-import Dev2 from "../assets/app.jpg"
+import Dev from "../assets/web2.jpg";
+import Dev2 from "../assets/app.jpg";
+import Test from "../assets/test.jpg";
+import Feedback from "../assets/feedback.jpg";
+import Deploy from "../assets/launch.jpg";
+import Support from "../assets/support.jpg";
 
 const Projects = () => {
 
@@ -204,20 +208,20 @@ const Projects = () => {
             </p>
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="https://assets.aceternity.com/pro/hero-sections.png"
+                src={Test}
                 alt="hero template"
                 width={500}
                 height={500}
                 className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
               />
               <img
-                src="https://assets.aceternity.com/features-section.png"
+                src={Feedback}
                 alt="feature template"
                 width={500}
                 height={500}
                 className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
               />
-              <img
+              {/* <img
                 src="https://assets.aceternity.com/pro/bento-grids.png"
                 alt="bento template"
                 width={500}
@@ -230,7 +234,7 @@ const Projects = () => {
                 width={500}
                 height={500}
                 className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-              />
+              /> */}
             </div>
           </div>
         ),
@@ -244,20 +248,20 @@ const Projects = () => {
             </p>
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="https://assets.aceternity.com/pro/hero-sections.png"
+                src={Deploy}
                 alt="hero template"
                 width={500}
                 height={500}
                 className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
               />
               <img
-                src="https://assets.aceternity.com/features-section.png"
+                src={Support}
                 alt="feature template"
                 width={500}
                 height={500}
                 className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
               />
-              <img
+              {/* <img
                 src="https://assets.aceternity.com/pro/bento-grids.png"
                 alt="bento template"
                 width={500}
@@ -270,7 +274,7 @@ const Projects = () => {
                 width={500}
                 height={500}
                 className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-              />
+              /> */}
             </div>
           </div>
         ),

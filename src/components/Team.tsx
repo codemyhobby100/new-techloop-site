@@ -9,35 +9,35 @@ const Team = () => {
     const testimonials = [
         {
           quote:
-            "The attention to detail and innovative features have completely transformed our workflow. This is exactly what we've been looking for.",
+            "With over 4 years of experience, Abdul-baqi is passionate about creating innovative solutions that empower businesses to flourish. His attention to detail and commitment to excellence have transformed workflows and exceeded client expectations.",
           name: "Abdul-baqi",
           designation: "CEO/Fullstack Developer",
           src: team1,
         },
         {
           quote:
-            "Implementation was seamless and the results exceeded our expectations. The platform's flexibility is remarkable.",
+            "Naimur is a skilled fullstack developer with over 4 years of experience, specializing in backend engineering. His deep technical expertise and innovative solutions ensure seamless implementation and impressive platform flexibility.",
           name: "Naimur",
           designation: "Senior Fullstack Engineer",
           src: team3,
         },
         {
           quote:
-            "This solution has significantly improved our team's productivity. The intuitive interface makes complex tasks simple.",
+            "With over 5 years of experience in mobile app development and frontend web development, Abdullah has the unique ability to craft intuitive and user-friendly interfaces that significantly enhance productivity.",
           name: "Abdullah",
           designation: "Mobile App Developer",
           src: team2,
         },
         {
           quote:
-            "Outstanding support and robust features. It's rare to find a product that delivers on all its promises.",
+            "Rasel is an exceptional UI designer who creates visually stunning and intuitive designs. His creative solutions and attention to user experience ensure every project is both functional and beautifully crafted.",
           name: "Rasel",
           designation: "UI/UX Designer",
           src: team4,
         },
         {
           quote:
-            "The scalability and performance have been game-changing for our organization. Highly recommend to any growing business.",
+            "Rakibul is an expert frontend developer whose work enhances scalability and performance, helping businesses grow and succeed through robust and efficient digital solutions.",
           name: "Rakibul",
           designation: "Frontend Developer",
           src: team5,
@@ -51,7 +51,7 @@ const Team = () => {
                 <h2 className="text-3xl lg:text-5xl mt-20 tracking-tighter bg-gradient-to-t from-neutral-50 via-neutral-300 to-neutral-600 bg-clip-text text-transparent">
                     Meet The Team
                 </h2>
-                <p className="mt-4">{OUR_WORK.sectionDescription}</p>
+                <p className="mt-4">A showcase of innovative solutions and standout projects that turn ideas into impactful digital experiences.</p>
             </div>
             <div className="max-w-7xl mx-auto px-4 mt-[-60px]">
                 <AnimatedTestimonials testimonials={testimonials} />
