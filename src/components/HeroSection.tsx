@@ -79,13 +79,13 @@ const HeroSection = () => {
         variants={fadeInUp}
         className="mt-6 space-x-4">
           <a
-            href="#"
+            href="/contact"
             className="inline-block bg-white hover:opacity-90 py-3 px-6 rounded-lg font-medium text-black"
           >
             {HERO_CONTENT.callToAction.primary}
           </a>
           <a
-            href="#"
+            href="/contact"
             className="inline-block border border-gray-500 hover:border-gray-400 py-3 px-6 rounded-lg font-medium"
           >
             {HERO_CONTENT.callToAction.secondary}
