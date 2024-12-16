@@ -256,8 +256,8 @@ export const FOOTER_CONTENT = {
       title: "EXPLORE",
       links: [
         { text: "About", url: "#" },
+        { text: "Process", url: "#" },
         { text: "Projects", url: "#" },
-        { text: "Contact", url: "#" },
         { text: "Staet Project", url: "#" },
       ],
     },

@@ -43,7 +43,7 @@ const Contact = () => {
             Partner with us to build innovative websites, apps, and digital solutions that drive results. Let’s create something amazing together.
           </p>
           <a
-            href="#"
+            href="/contact"
             className="inline-block bg-white text-black border border-white hover:bg-gray-100 hover:text-black py-3 px-6 rounded-lg font-medium transition"
           >
             Start Your Project

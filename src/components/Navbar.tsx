@@ -16,22 +16,22 @@ const Navbar = () => {
                 <h2 className='text-white text-[20px]'>Techloop Ltd.</h2>
 
                 <div className='hidden md:flex space-x-6'>
-                    <a href="#services" className='hover:text-neutral-200'>
+                    <a href="/" className='hover:text-neutral-200'>
                         About us
                     </a>
-                    <a href="#works" className='hover:text-neutral-200'>
-                        Projects
+                    <a href="#process" className='hover:text-neutral-200'>
+                        Process
                     </a>
-                    <a href="#works" className='hover:text-neutral-200'>
-                        Contact
+                    <a href="#project" className='hover:text-neutral-200'>
+                        Projects
                     </a>
                 </div>
 
                 <div className='hidden md:flex space-x-4 items-center'>
-                <a href="#" className='border border-neutral-700 text-white py-2 px-4 rounded-lg hover:bg-neutral-700 transition'>
+                {/* <a href="#" className='border border-neutral-700 text-white py-2 px-4 rounded-lg hover:bg-neutral-900 transition'>
                         Get a Quote
-                    </a>
-                    <a href="#" className='bg-white  text-black py-2 px-4 rounded-lg hover:bg-blue-500 transition'>
+                    </a> */}
+                    <a href="/contact" className='bg-white  text-black py-2 px-4 rounded-lg hover:bg-white/80 transition'>
                         Start Project
                     </a>
                 </div>
@@ -52,22 +52,22 @@ const Navbar = () => {
                 } bg-neutral-900/60 backdrop-blur-md border border-neutral-800 p-4 rounded-xl mt-2`}
             >
                 <div className='flex flex-col space-y-4'>
-                    <a href="#" className='hover:text-neutral-200'>
+                    <a href="#" className='text-white hover:text-neutral-200'>
                         About us
                     </a>
-                    <a href="#" className='hover:text-neutral-200'>
-                        Project
+                    <a href="#process" className='text-white hover:text-neutral-200'>
+                        Process
                     </a>
-                    <a href="#" className='hover:text-neutral-200'>
+                    <a href="#" className='text-white hover:text-neutral-200'>
                         Testimonial
                     </a>
-                    <a href="#" className='hover:text-white'>
-                        Contact
+                    <a href="#project" className='text-white hover:text-white'>
+                        Projects
                     </a>
-                    <a href="#" className='hover:text-neutral-200'>
+                    {/* <a href="contact" className='hover:text-neutral-200'>
                         Get a free quote
-                    </a>
-                    <a href="#" className='bg-white  text-black py-2 px-4 rounded-lg hover:bg-blue-500 transition'>
+                    </a> */}
+                    <a href="contact" className='bg-white  text-black py-2 px-4 rounded-lg hover:bg-white/80 transition'>
                         Start Project
                     </a>
                 </div>

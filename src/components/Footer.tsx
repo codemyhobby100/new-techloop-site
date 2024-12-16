@@ -25,10 +25,7 @@ const Footer = () => {
 
 
             <div className="my-12 border-t border-neutral-800 pt-8 text-center text-sm text-neutral-500">
-                <div className="flex justify-between">
-                    <div className="text-xs">
-                        <p>{FOOTER_CONTENT.platformsText}</p>
-                    </div>
+                <div className="flex align-center justify-center">
                     <div className="text-xs">
                         <p>{FOOTER_CONTENT.copyrightText}</p>
                     </div>

@@ -281,7 +281,7 @@ const Projects = () => {
       },
     ];
   return (
-    <section>
+    <section id="process">
         <div className="max-w-7xl mx-auto px-4 mt-20">
             <div className="text-center mb-12 border-t border-neutral-100">
                 <h2 className="text-3xl lg:text-5xl mt-20 tracking-tighter bg-gradient-to-t
