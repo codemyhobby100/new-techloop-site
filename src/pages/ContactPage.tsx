@@ -16,8 +16,7 @@ const ContactPage = () => {
       variants={containerVariants}
       initial="hidden"
       animate="visible"
-      className="min-h-screen flex flex-col items-center justify-center text-white px-6 py-12"
-    >
+      className="min-h-screen flex flex-col items-center justify-center text-white px-6 py-12 mt-16">
       <div className="max-w-3xl w-full">
         <motion.h1
           variants={fadeInUp}
