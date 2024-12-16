@@ -142,9 +142,9 @@ const HeroSection = () => {
         titleComponent={
           <>
             <h1 className="-mt-8 text-4xl font-semibold text-black dark:text-white">
-              Unleash the power of <br />
+               <br />
               <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
-                Scroll Animations
+                
               </span>
             </h1>
           </>
