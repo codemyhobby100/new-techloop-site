@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
+:root {
   background: #000;
+}
+
+html {
+  scroll-behavior: auto; /* Default behavior for normal scrolling */
+}
+
+a {
+  scroll-behavior: smooth; /* Smooth scroll only for anchor navigation links */
 }
