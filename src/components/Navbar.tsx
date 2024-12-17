@@ -10,7 +10,7 @@ const Navbar = () => {
     };
 
     // Function to handle navigation
-    const handleNavigation = (sectionId) => {
+    const handleNavigation = (sectionId: string): void => {
         if (window.location.pathname !== "/") {
             // Navigate to the homepage first, then scroll
             window.location.href = `/#${sectionId}`;
@@ -25,6 +25,7 @@ const Navbar = () => {
             }
         }
     };
+    
 
     // Smooth scroll to section when page loads with hash
     useEffect(() => {
