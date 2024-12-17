@@ -255,30 +255,30 @@ export const FOOTER_CONTENT = {
     {
       title: "EXPLORE",
       links: [
-        { text: "About", url: "#" },
-        { text: "Process", url: "#" },
-        { text: "Projects", url: "#" },
-        { text: "Staet Project", url: "#" },
+        { text: "About", href: "#services" },
+        { text: "Process", href: "#process" },
+        { text: "Projects", href: "#projects" },
+        { text: "Start Project", href: "/contact" }, // Navigates to contact page
       ],
     },
     {
       title: "CONNECT WITH US",
       links: [
-        { text: "LinkedIn", url: "#" },
-        { text: "Instagram", url: "#" },
-        { text: "X(Twitter)", url: "#" },
-        { text: "Tiktok", url: "#" },
+        { text: "LinkedIn", href: "https://www.linkedin.com/company/techlooop" },
+        { text: "Instagram", href: "https://www.instagram.com/techloop_ltd/" },
+        { text: "X(Twitter)", href: "#" },
+        { text: "Tiktok", href: "#" },
       ],
     },
     {
       title: "LEARN & EXPLORE",
       links: [
-        { text: "Terms and Conditions", url: "#" },
-        { text: "Privacy Policy", url: "#" },
+        { text: "Terms and Conditions", href: "#terms" },
+        { text: "Privacy Policy", href: "#privacy-policy" },
       ],
     },
   ],
-  platformsText:
-    "Reach Us Via:  LinkedIn | Instagram | X(Twitter) | TikTok",
+  platformsText: "Reach Us Via: LinkedIn | Instagram | X(Twitter) | TikTok",
   copyrightText: "© 2024 Techloop Technologies Ltd. All rights reserved.",
 };
+
