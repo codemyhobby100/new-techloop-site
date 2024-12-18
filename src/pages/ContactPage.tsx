@@ -1,4 +1,7 @@
 import { motion } from "framer-motion";
+import { useRef } from "react";
+import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -11,6 +14,25 @@ const fadeInUp = {
 };
 
 const ContactPage = () => {
+  const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_0e75q3s', 'template_v3htq3q', form.current, 'EYdk4KX7wlFCT4pz_')
+        .then((result) => {
+            Swal.fire({
+                icon: 'success',
+                title: 'Great!',
+                text: 'Your message has been sent successfully',
+                footer: '<a href="/">Go home</a>'
+              })
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset()
+  }
+
   return (
     <motion.section
       variants={containerVariants}
@@ -31,7 +53,7 @@ const ContactPage = () => {
           Reach out to us for any inquiries, support, or business-related questions.
         </motion.p>
         {/* Contact Form */}
-        <form className="grid gap-6">
+        <form className="grid gap-6" ref={form} onSubmit={sendEmail}>
           {/* Full Name & Email */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
@@ -39,6 +61,7 @@ const ContactPage = () => {
               <input
                 type="text"
                 placeholder="Enter your full name"
+                name="from_name"
                 className="p-3 rounded bg-neutral-900 text-white w-full outline-none"
               />
             </div>
@@ -47,6 +70,7 @@ const ContactPage = () => {
               <input
                 type="email"
                 placeholder="Enter your email"
+                name="from_email"
                 className="p-3 rounded bg-neutral-900 text-white w-full outline-none"
               />
             </div>
@@ -59,6 +83,7 @@ const ContactPage = () => {
               <input
                 type="text"
                 placeholder="Enter the subject"
+                name="from_subject"
                 className="p-3 rounded bg-neutral-900 text-white w-full outline-none"
               />
             </div>
@@ -67,6 +92,7 @@ const ContactPage = () => {
               <input
                 type="tel"
                 placeholder="Enter your phone number"
+                name="from_number"
                 className="p-3 rounded bg-neutral-900 text-white w-full outline-none"
               />
             </div>
@@ -77,6 +103,7 @@ const ContactPage = () => {
             <label className="block text-neutral-400 mb-2">Message</label>
             <textarea
               placeholder="Write your message here"
+              name="from_message"
               rows={5}
               className="p-3 rounded bg-neutral-900 text-white w-full resize-none outline-none"
             />
