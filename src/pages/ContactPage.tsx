@@ -14,24 +14,26 @@ const fadeInUp = {
 };
 
 const ContactPage = () => {
-  const form = useRef();
+  const form = useRef<HTMLFormElement | null>(null);
 
-    const sendEmail = (e) => {
-        e.preventDefault();
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
 
-        emailjs.sendForm('service_0e75q3s', 'template_v3htq3q', form.current, 'EYdk4KX7wlFCT4pz_')
-        .then((result) => {
-            Swal.fire({
-                icon: 'success',
-                title: 'Great!',
-                text: 'Your message has been sent successfully',
-                footer: '<a href="/">Go home</a>'
-              })
-        }, (error) => {
-            console.log(error.text);
+    if (form.current) {
+      emailjs.sendForm('service_0e75q3s', 'template_v3htq3q', form.current, 'EYdk4KX7wlFCT4pz_')
+      .then(() => {
+        Swal.fire({
+          icon: 'success',
+          title: 'Great!',
+          text: 'Your message has been sent successfully',
+          footer: '<a href="/">Go home</a>'
         });
-        e.target.reset()
-  }
+      }, (error) => {
+        console.log(error.text);
+      });
+      e.currentTarget.reset();
+    }
+  };
 
   return (
     <motion.section
@@ -52,7 +54,6 @@ const ContactPage = () => {
         >
           Reach out to us for any inquiries, support, or business-related questions.
         </motion.p>
-        {/* Contact Form */}
         <form className="grid gap-6" ref={form} onSubmit={sendEmail}>
           {/* Full Name & Email */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
