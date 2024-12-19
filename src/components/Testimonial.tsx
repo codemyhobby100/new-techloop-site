@@ -5,32 +5,32 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards"
 const testimonials = [
     {
       quote:
-        "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-      name: "Charles Dickens",
-      title: "A Tale of Two Cities",
+        "Techloop brought our ideas to life with precision and innovation. Their team was responsive, professional, and delivered a website that not only looked amazing but also performed seamlessly. We’re thrilled with the results!",
+      name: "Dhruv",
+      title: "Webdesign Agency",
     },
     {
       quote:
-        "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-      name: "William Shakespeare",
-      title: "Hamlet",
+        "Choosing Techloop was the best decision we made for our business. They created a website that perfectly captured our brand and provided valuable input that enhanced the final product. Their dedication to quality is truly impressive.",
+      name: "Acctbazar",
+      title: "CEO",
     },
     {
-      quote: "All that we see or seem is but a dream within a dream.",
-      name: "Edgar Allan Poe",
+      quote: "Techloop transformed our outdated website into a modern, sleek, and efficient platform. Their commitment to user experience and performance optimization was evident throughout the project. We highly recommend them!",
+      name: "Tamazing Events",
       title: "A Dream Within a Dream",
     },
     {
       quote:
-        "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-      name: "Jane Austen",
-      title: "Pride and Prejudice",
+        "Techloop delivered a seamless, user-friendly app that perfectly brought Donki AI to life. Their attention to detail and expertise made the process smooth and enjoyable.",
+      name: "Volume Technologies",
+      title: "CEO",
     },
     {
       quote:
-        "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-      name: "Herman Melville",
-      title: "Moby-Dick",
+        "Techloop developed a sleek, responsive web app that exceeded expectations. Their focus on quality and functionality made all the difference",
+      name: "Acctpanel",
+      title: "CEO",
     },
   ];
 

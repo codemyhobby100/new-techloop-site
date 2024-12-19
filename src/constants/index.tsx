@@ -206,31 +206,31 @@ export const TESTIMONIALS_CONTENT = {
     "Hear from some of the top streamers who use Streamerzz to engage with their audience and grow their channels.",
   reviews: [
     {
-      name: "Alice Johnson",
-      title: "Content Creator",
+      name: "Dhruv",
+      title: "Web Design Agency",
       review:
-        "Streamerzz has revolutionized the way we manage our content subscriptions. The intuitive dashboard and real-time analytics have made it easier to track our progress and optimize our offerings. Highly recommended!",
+        "Techloop brought our ideas to life with precision and innovation. Their team was responsive, professional, and delivered a website that not only looked amazing but also performed seamlessly. We’re thrilled with the results!",
       image: user1,
     },
     {
-      name: "Bob Smith",
-      title: "Marketing Specialist",
+      name: "Acctbazaar",
+      title: "CEO",
       review:
-        "The team at Streamerzz has been fantastic! Their support is responsive and knowledgeable. The platform itself is versatile and has helped us streamline our subscription management, saving us time and increasing efficiency.",
+        "Choosing Techloop was the best decision we made for our business. They created a website that perfectly captured our brand and provided valuable input that enhanced the final product. Their dedication to quality is truly impressive.",
       image: user2,
     },
     {
-      name: "Carla Mendes",
-      title: "Product Manager",
+      name: "Volume Technologies",
+      title: "CEO",
       review:
-        "Streamerzz's automated billing and comprehensive analytics have been game-changers for our product team. We can now easily track user engagement and make data-driven decisions to enhance our service offerings.",
+        "Techloop transformed our outdated website into a modern, sleek, and efficient platform. Their commitment to user experience and performance optimization was evident throughout the project. We highly recommend them!",
       image: user3,
     },
     {
-      name: "David Lee",
-      title: "Customer Success Manager",
+      name: "Acctpanel",
+      title: "CEO",
       review:
-        "Using Streamerzz, we’ve been able to increase our customer retention rates. The platform's user-friendly interface and powerful features have provided our customers with a seamless experience, leading to higher satisfaction.",
+        "Working with Techloop was an absolute game-changer for our online presence. They delivered a site that is fast, visually stunning, and easy to navigate. Their professionalism and innovative approach set them apart from the rest",
       image: user4,
     },
     {
