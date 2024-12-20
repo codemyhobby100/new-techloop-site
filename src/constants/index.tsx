@@ -273,8 +273,8 @@ export const FOOTER_CONTENT = {
     {
       title: "LEARN & EXPLORE",
       links: [
-        { text: "Terms and Conditions", href: "#terms" },
-        { text: "Privacy Policy", href: "#privacy-policy" },
+        { text: "Terms and Conditions", href: "/terms-and-conditions" },
+        { text: "Privacy Policy", href: "/privacy-policy" },
       ],
     },
   ],
