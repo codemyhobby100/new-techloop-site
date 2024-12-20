@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Footer from "../components/Footer";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
@@ -8,6 +9,7 @@ const fadeInUp = {
 
 const PrivacyPolicy = () => {
     return (
+      <>
       <motion.section
         variants={fadeInUp}
         initial="hidden"
@@ -42,6 +44,8 @@ const PrivacyPolicy = () => {
             <p className="mb-4">We may update this Privacy Policy from time to time. We encourage you to review it periodically.</p>
         </div>
       </motion.section>
+      <Footer/>
+      </>
     );
   };
   
