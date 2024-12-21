@@ -266,7 +266,7 @@ export const FOOTER_CONTENT = {
       links: [
         { text: "LinkedIn", href: "https://www.linkedin.com/company/techlooop" },
         { text: "Instagram", href: "https://www.instagram.com/techloop_ltd/" },
-        { text: "X(Twitter)", href: "#" },
+        { text: "X(Twitter)", href: "https://chatgpt.com/share/6766db84-4f60-8013-be21-7c369cce6dcd" },
         { text: "Tiktok", href: "#" },
       ],
     },
