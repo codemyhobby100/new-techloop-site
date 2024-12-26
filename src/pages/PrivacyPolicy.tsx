@@ -16,7 +16,7 @@ const PrivacyPolicy = () => {
         animate="visible" 
         className="p-8 max-w-4xl mx-auto mt-32">
         <h1 className="text-center text-4xl md:text-5xl lg:text-6xl my-4 font-semibold tracking-tighter bg-gradient-to-b from-neutral-50 via-neutral-300 to-neutral-700 bg-clip-text text-transparent">Privacy Policy</h1>
-        <p className="mt-6 mb-6 text-neutral-400 mx-auto text-center">Your privacy is important to us at Techloop Technologies Ltd. This policy explains how we collect, use, and protect your personal information.</p>
+        <p className="mt-6 mb-6 text-neutral-400 mx-auto text-center">Your privacy is important to us at Techloop Technologies Ltd. This policy explains how we collect, use, and protect your personal information</p>
 
         <div className="text-neutral-400">
             <h2 className="text-xl font-semibold mt-6 mb-2">1. Information We Collect</h2>
