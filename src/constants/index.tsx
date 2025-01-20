@@ -279,6 +279,6 @@ export const FOOTER_CONTENT = {
     },
   ],
   platformsText: "Reach Us Via: LinkedIn | Instagram | X(Twitter) | TikTok",
-  copyrightText: "© 2024 Techloop Technologies Ltd. All rights reserved.",
+  copyrightText: "© 2025 Techloop Technologies Ltd. All rights reserved.",
 };
 
