@@ -1,7 +1,8 @@
-import StreamLabsLogo from "../assets/streamlabs-logo.png";
-import BroadcastlyLogo from "../assets/broadcastly-logo.png";
-import LiveStreamerLogo from "../assets/livestreamer-logo.png";
-import CloudCastLogo from "../assets/cloudcast-logo.png";
+import StreamLabsLogo from "../assets/iog-logo.png";
+import BroadcastlyLogo from "../assets/cms.png";
+import LiveStreamerLogo from "../assets/acct-logooo.png";
+import CloudCastLogo from "../assets/acctpanel.png";
+import AmazonUnitedLogo from "../assets/amazon-united.png";
 
 import streamImage from "../assets/web.jpg";
 import chart from "../assets/web3.png";
@@ -34,20 +35,21 @@ export const HERO_CONTENT = {
     primary: "Get a Quote",
     secondary: "Start Project",
   },
-  trustedByText: "Trusted by Leading Streaming Brands & Creators",
+  trustedByText: "Trusted by Industry Leaders & Innovators",
 };
 
 export const BRAND_LOGOS = [
-  { src: StreamLabsLogo, alt: "StreamLabs" },
-  { src: BroadcastlyLogo, alt: "Broadcastly" },
-  { src: LiveStreamerLogo, alt: "LiveStreamer" },
-  { src: CloudCastLogo, alt: "CloudCast" },
+  { src: StreamLabsLogo, alt: "IOG" },
+  { src: BroadcastlyLogo, alt: "Clean My Space" },
+  { src: LiveStreamerLogo, alt: "Acctbazaar" },
+  { src: CloudCastLogo, alt: "Acctpanel" },
+  { src: AmazonUnitedLogo, alt: "Amazon United" },
 ];
 
 export const HOW_IT_WORKS_CONTENT = {
   sectionTitle: "What We Do",
   sectionDescription:
-    "Stream like a pro with our 6-step process. From setup to performance tracking, we've got everything you need to elevate your streaming experience.",
+    "From web and app development to maintenance and SEO, we deliver digital solutions that drive growth and efficiency.",
   steps: [
     {
       title: "Web Development",

@@ -91,7 +91,7 @@ const HeroSection = () => {
             {HERO_CONTENT.callToAction.secondary}
           </a>
         </motion.div> 
-
+        
         {/* Logo slider with marquee effect */}
         <motion.div
           variants={fadeIn}
@@ -117,7 +117,7 @@ const HeroSection = () => {
                   key={index}
                   src={logo.src}
                   alt={logo.alt}
-                  className="h-6 md:h-8"
+                  className="h-10 md:h-12"
                 />
               ))}
               {/* Duplicate logos for seamless scrolling */}
@@ -126,12 +126,13 @@ const HeroSection = () => {
                   key={`duplicate-${index}`}
                   src={logo.src}
                   alt={logo.alt}
-                  className="h-6 md:h-8"
+                  className="h-10 md:h-12"
                 />
               ))}
             </div>
           </div>
         </motion.div>
+
         {/* <motion.div 
         variants={fadeIn}
         className="mt-12">
